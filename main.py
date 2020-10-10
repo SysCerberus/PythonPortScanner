@@ -1,11 +1,10 @@
 #!/bin/python3
 
-import sys #allows us to enter command line arguments among other things
+import sys 
 import socket
 from datetime import datetime
 from time import sleep
 
-#Quit func
 def quit():
 	print("\nQuitting...")
 	sleep(0.80)
